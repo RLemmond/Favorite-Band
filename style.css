@@ -1,64 +1,55 @@
 body {
   font-family: Arial, sans-serif;
-  margin: auto;
-  padding: auto;
-  background-color: #e9cfcf;
+  margin: 0;
+  padding: 0;
+  background-color: #ca9f9f;
+  display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-#header {
-  background-color: #bfbed1;
-  padding: 20px;
-  text-align: center;
-}
-
-h1 {
-  color: #333;
+  justify-content: center;
 }
 
 .box {
-  border: 5px solid #ddbbbb;
   padding: 20px;
+  border: 10px solid rgb(173, 131, 131);
+  background-color: #717574;
   margin: 10px;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
 }
 
 .column {
-  flex: 50%;
-  max-width: 50%;
+  flex: 1;
+  margin: 10px;
 }
 
 .band-image {
-  display: block;
-  margin: 20px auto;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
+#header {
+  font-size: 2em;
+  color: rgb(22, 38, 48);
+}
+
 #band-info {
-  color: #000000;
-  margin-left: 20px;
+  font-size: 1em;
+  text-align: left;
 }
 
-h2 {
-  margin-top: 30px;
+.tour-dates {
+  border: 2px solid black;
+  padding: 20px;
+  text-align: left;
 }
 
-p,
-ul,
-ol {
-  color: #5f5d5d;
-  margin: 10px 0;
-  line-height: 1.6;
-}
-
-a {
-  color: #2600ff;
+a:link {
+  color: rgb(37, 45, 116);
 }
