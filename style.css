@@ -1,12 +1,14 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
+  margin: auto;
+  padding: auto;
+  background-color: #e9cfcf;
+  flex-direction: column;
+  align-items: center;
 }
 
 #header {
-  background-color: #ccc;
+  background-color: #bfbed1;
   padding: 20px;
   text-align: center;
 }
@@ -16,9 +18,11 @@ h1 {
 }
 
 .box {
-  border: 1px solid #ccc;
+  border: 5px solid #ddbbbb;
   padding: 20px;
   margin: 10px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .row {
@@ -39,7 +43,7 @@ h1 {
 }
 
 #band-info {
-  color: #333;
+  color: #000000;
   margin-left: 20px;
 }
 
@@ -50,11 +54,11 @@ h2 {
 p,
 ul,
 ol {
-  color: #666;
+  color: #5f5d5d;
   margin: 10px 0;
   line-height: 1.6;
 }
 
 a {
-  color: #0088cc;
+  color: #2600ff;
 }
