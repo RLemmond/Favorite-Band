@@ -73,3 +73,14 @@ a:link {
   height: auto;
   margin-top: 10px;
 }
+
+.members {
+  font-size: 1.3em;
+  font-weight: 200;
+  color: rgb(44, 36, 1);
+  padding: 3%;
+}
+
+.song {
+  padding: 3%;
+}
