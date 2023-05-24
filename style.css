@@ -47,7 +47,7 @@ body {
 .tour-dates {
   border: 2px solid black;
   padding: 20px;
-  text-align: left;
+  text-align: center;
 }
 
 a:link {
@@ -66,4 +66,10 @@ a:link {
   font-size: 16px;
   margin: 10px 2px;
   cursor: pointer;
+}
+
+.concert-photo {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
 }
