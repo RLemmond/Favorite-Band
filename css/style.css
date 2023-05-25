@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #867171;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  padding: 20px;
+  border: 10px solid rgb(163, 123, 123);
+  background-color: #717574;
+  margin: 10px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+}
+
+.column {
+  flex: 1;
+  margin: 10px;
+}
+
+.band-image {
+  width: 100%;
+  height: auto;
+}
+
+#header {
+  font-size: 2em;
+  color: rgb(22, 38, 48);
+}
+
+#band-info {
+  font-size: 1em;
+  text-align: left;
+}
+
+.tour-dates {
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+}
+
+a:link {
+  color: rgb(37, 45, 116);
+}
+
+.cta {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+}
+
+.concert-photo {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.members {
+  font-size: 1.3em;
+  font-weight: 200;
+  color: rgb(44, 36, 1);
+  padding: 3%;
+}
+
+.song {
+  padding: 3%;
+}
