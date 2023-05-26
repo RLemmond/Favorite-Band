@@ -16,9 +16,9 @@ _This project is a webpage dedicated to learning about AnnenMayKantereit, a Germ
 
 ## Setup/Installation Requirements
 
-* (WIP) _Clone the repository: git clone REPLACE_WITH_CLONE_URL_
-_Open the project in your preferred code editor._
-_Launch the index.html file in a web browser._
+* _Clone the repository: (https://github.com/RLemmond/favorite-band.git)L_
+* _Open the project in your preferred code editor._
+* _Launch the index.html file in a web browser._
 
 
 
